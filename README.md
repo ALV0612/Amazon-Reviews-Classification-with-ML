@@ -13,6 +13,25 @@ This project aims to classify Amazon product reviews as either "spam" or "ham" (
   - `1`: Spam - 1646 instances
 - **Format**: CSV
 
+## Dependencies
+
+- Python 3.11.9
+- Libraries:
+  - `numpy`
+  - `pandas`
+  - `seaborn`
+  - `matplotlib`
+  - `scikit-learn`
+  - `spacy` (`en_core_web_sm` model)
+  - `imblearn` (for SMOTE)
+  - `lazypredict`
+  - `optuna`
+
+Install dependencies using:
+```bash
+pip install numpy pandas seaborn matplotlib scikit-learn spacy imblearn lazypredict optuna
+python -m spacy download en_core_web_sm
+
 ## Project Workflow
 
 ### 1. Data Cleaning
@@ -71,21 +90,3 @@ This project aims to classify Amazon product reviews as either "spam" or "ham" (
   - Accuracy: 0.7183
   - F1-score: 0.7095
 
-## Dependencies
-
-- Python 3.11.9
-- Libraries:
-  - `numpy`
-  - `pandas`
-  - `seaborn`
-  - `matplotlib`
-  - `scikit-learn`
-  - `spacy` (`en_core_web_sm` model)
-  - `imblearn` (for SMOTE)
-  - `lazypredict`
-  - `optuna`
-
-Install dependencies using:
-```bash
-pip install numpy pandas seaborn matplotlib scikit-learn spacy imblearn lazypredict optuna
-python -m spacy download en_core_web_sm
