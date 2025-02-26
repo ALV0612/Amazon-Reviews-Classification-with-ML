@@ -31,7 +31,7 @@ Install dependencies using:
 ```bash
 pip install numpy pandas seaborn matplotlib scikit-learn spacy imblearn lazypredict optuna
 python -m spacy download en_core_web_sm
-
+'''
 ## Project Workflow
 
 ### 1. Data Cleaning
